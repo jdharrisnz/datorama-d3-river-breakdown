@@ -21,7 +21,7 @@ rect {
 ```
 
 ## Set up and Dependencies
-Add `riverBreakdown.initialize()` to the JS section, and add the below dependencies to the second tab of the Custom Widget Editor.
+Add `riverBreakdown.initialize();` to the JS section, and add the below dependencies to the second tab of the Custom Widget Editor.
 
 Script dependencies (must be loaded in this order):
 1. https://d3js.org/d3.v5.min.js
