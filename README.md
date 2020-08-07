@@ -5,6 +5,8 @@ This custom widget creates river-like breakdowns for each dimension you add, and
 
 Subtotals of actual values currently aren't possible, since that data is not included in the widget query response.
 
+![Preview image](image.png)
+
 ## Common Style Changes
 To change the color of the blocks and paths, add the below to the CSS section of the Custom Widget Editor. To look ideal, `rect-end` in the gradient should have the same colour as `rect`.
 ```
