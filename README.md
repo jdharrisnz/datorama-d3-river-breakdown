@@ -1,4 +1,4 @@
-# river-breakdown
+# datorama-d3-river-breakdown
 Custom widget for Datorama. Visualises hierarchical breakdowns.
 
 This custom widget creates river-like breakdowns for each dimension you add, and gives you context-specific mouseover percentage calculation. It doesn't re-combine like a sankey flow diagram, as the intention is to show hierarchies.
