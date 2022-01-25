@@ -8,15 +8,20 @@ Subtotals of actual values currently aren't possible, since that data is not inc
 ![Preview image](image.png)
 
 ## Common Style Changes
-To change the color of the blocks and paths, add the below to the CSS section of the Custom Widget Editor. To look ideal, `rect-end` in the gradient should have the same colour as `rect`.
+To change the color of the blocks and paths, add the below to the CSS section of the Custom Widget Editor. You only need to change the colours in the declared variables in the first block.
 ```
+:root {
+  --start-grad: #0082d6;
+  --end-grad: #00b0f0;
+}
+
 #level0-gradient {
-  --rect-start: rgb(134, 188, 182);
-  --rect-end: rgb(117, 161, 199);
+  --rect-start: var(--start-grad);
+  --rect-end: var(--end-grad);
 }
 
 rect {
-  fill: rgb(117, 161, 199);
+  fill: var(--end-grad);
 }
 ```
 
