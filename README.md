@@ -1,3 +1,6 @@
+# Archived
+This repo has been archived and consolidated into [mci-d3-custom-widgets](https://github.com/jdharrisnz/mci-d3-custom-widgets).
+
 # datorama-d3-river-breakdown
 Custom widget for Datorama. Visualises hierarchical breakdowns.
 
